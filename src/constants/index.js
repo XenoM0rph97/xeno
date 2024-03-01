@@ -29,7 +29,8 @@ import {
     almaviva,
     kirey,
     nf_logo,
-    aws
+    aws,
+    nick
   } from "../assets";
   
   export const navLinks = [
@@ -245,27 +246,11 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Andrea is an highly skilled professional that won't stop improving himself. I personally worked side by side with Andrea in the SOC department and had the occasion to get surprised with his innovations and automation skills in the cybersecurity field. But after all this guy is born for Red Team operations and I can't wait to see what he can do! If you are an offensive oriented security company you definitely want him in your team!",
+      name: "Nicolas Fasolo",
+      designation: "SOC Manager",
+      company: "Lan&Wan Solutions",
+      image: nick,
     },
   ];
   

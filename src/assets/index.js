@@ -25,6 +25,13 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import netx64 from "./company/netx64.png";
+import skytekne from "./company/SkyTekne.png";
+import lanewan from "./company/Lan&Wan.png";
+import almaviva from "./company/AlmavivA.png";
+import kirey from "./company/Kirey.png";
+import nf_logo from "./company/NF_logo.png";
+import aws from "./company/Aws.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +66,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  netx64,
+  skytekne,
+  lanewan,
+  almaviva,
+  kirey,
+  nf_logo,
+  aws,
 };

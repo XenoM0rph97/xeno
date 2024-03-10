@@ -1,0 +1,11 @@
+Model Information:
+* title:	Exproject Neon Platforms
+* source:	https://sketchfab.com/3d-models/exproject-neon-platforms-c1d4c8b3ec9a423a98ca6549c9a46a41
+* author:	BlurryGames (https://sketchfab.com/BlurryGames)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Exproject Neon Platforms" (https://sketchfab.com/3d-models/exproject-neon-platforms-c1d4c8b3ec9a423a98ca6549c9a46a41) by BlurryGames (https://sketchfab.com/BlurryGames) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

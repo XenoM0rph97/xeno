@@ -1,0 +1,11 @@
+Model Information:
+* title:	An empty silver coin
+* source:	https://sketchfab.com/3d-models/an-empty-silver-coin-b0325d31bc0d4b2eb040c1e67ca5918e
+* author:	sandyonmars (https://sketchfab.com/sandyonmars)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "An empty silver coin" (https://sketchfab.com/3d-models/an-empty-silver-coin-b0325d31bc0d4b2eb040c1e67ca5918e) by sandyonmars (https://sketchfab.com/sandyonmars) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

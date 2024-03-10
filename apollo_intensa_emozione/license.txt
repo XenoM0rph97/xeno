@@ -1,0 +1,11 @@
+Model Information:
+* title:	Apollo Intensa Emozione
+* source:	https://sketchfab.com/3d-models/apollo-intensa-emozione-6fc4827592ad48d383b09e217d163895
+* author:	Black Snow (https://sketchfab.com/BlackSnow02)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Apollo Intensa Emozione" (https://sketchfab.com/3d-models/apollo-intensa-emozione-6fc4827592ad48d383b09e217d163895) by Black Snow (https://sketchfab.com/BlackSnow02) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

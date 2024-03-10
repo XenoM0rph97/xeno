@@ -66,6 +66,29 @@ import {
       icon: creator,
     },
   ];
+
+  const certifications = [
+    {
+      name: "CSI Linux - Certified Dark Web Investigator",
+      identifier: "csi",
+      path: "./certs/badges/csi_linux_cdwi_badge.png"
+    },
+    {
+      name: "Threat Feed Service - L1 Analyst",
+      identifier: "tfsAnalyst",
+      path: "./certs/badges/TFS_badge.png"
+    },
+    {
+      name: "Certified Ethical Hacker Master (Hall of Fame 2021)",
+      identifier: "cehHoF",
+      path: "./certs/badges/CEH_HoF_2021.png"
+    },
+    {
+      name: "Sophos Certified Engineer - XG Firewall",
+      identifier: "sophos",
+      path: "./certs/badges/Sophos_Engineer_badge.png"
+    },
+  ];
   
   const technologies = [
     {
@@ -320,4 +343,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, certifications };

@@ -1,18 +1,33 @@
 import React from "react";
 
-import { CertCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { certifications } from "../constants";
+import { styles } from "../styles";
+import { motion } from "framer-motion";
+import { textVariant } from "../utils/motion";
+import { CertCanvas } from "./canvas";
 
 const Certs = () => {
   return (
-    <div className='flex flex-row flex-wrap justify-center gap-10'>
-      {technologies.map((technology) => (
-        <div className='w-28 h-28' key={technology.name}>
-          <BallCanvas icon={technology.icon} />
+    <>
+    <motion.div variants={textVariant()}>
+        <p className={`${styles.sectionSubText} text-center`}>
+          Education and Trainings
+        </p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>
+          Certifications
+        </h2>
+      </motion.div>
+    
+    <div className='flex flex-row flex-wrap justify-center gap-10 mt-20'>
+      {certifications.map((cert) => (
+        <div className='w-500 h-500' key={cert.identifier}>
+        <img src={cert.path} title={cert.name}></img>
+          {/* <CertCanvas identifier={cert.identifier} /> */}
         </div>
       ))}
     </div>
+    </>
   );
 };
 

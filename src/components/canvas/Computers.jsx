@@ -24,7 +24,7 @@ const Computers = ({ isMobile }) => {
       <primitive
         object={obj.scene}
         scale={isMobile ? 0.15 : 0.25}
-        position={isMobile ? [0.25, -2, 0] : [0, -2, 0]}
+        position={isMobile ? [0.18, -1.2, 0] : [0, -2, 0]}
         rotation={[0, 0, 0]}
         overflow={scroll}
       />

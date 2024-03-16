@@ -1,16 +1,17 @@
-import React from "react";
+import React, { useEffect} from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import { motion } from "framer-motion";
+import { delay, motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { textVariant } from "../utils/motion";
+import { textVariant, textVariantX } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -56,18 +57,36 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
-const Experience = () => {
-  return (
-    <>
-      <motion.div variants={textVariant()}>
+function Wk() {
+  const controls = useAnimation();
+  const [ref, inView] = useInView();
+  useEffect(() => {
+      if (inView) {
+        controls.start("visible");
+      }
+    }, [controls, inView]);
+    return (
+      <motion.div
+        ref={ref}
+        animate={controls}
+        initial="hidden"
+        variants={textVariantX(0.25)}
+        className="wk"
+      >
         <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far:
+          What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
           Work Experience
         </h2>
       </motion.div>
+    );
+  }
 
+const Experience = () => {
+  return (
+    <>
+      <Wk />
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
           {experiences.map((experience, index) => (

@@ -15,6 +15,24 @@ export const textVariant = (delay) => {
       },
     };
   };
+
+  export const textVariantX = (delay) => {
+    return {
+      hidden: {
+        y: -50,
+        opacity: 0,
+      },
+      visible: {
+        y: 0,
+        opacity: 1,
+        transition: {
+          type: "spring",
+          duration: 1.25,
+          delay: delay,
+        },
+      },
+    };
+  };
   
   export const fadeIn = (direction, type, delay, duration) => {
     return {

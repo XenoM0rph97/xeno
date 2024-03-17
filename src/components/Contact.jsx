@@ -17,6 +17,8 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
+  const [resShow, setResShow] = useState(false);
+
   const handleChange = (e) => {
     const { target } = e;
     const { name, value } = target;
@@ -30,8 +32,13 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+    setResShow(true);
 
-    emailjs
+    // alert("Email contact is currently unavailable. Please, reach out from Linkedin.")
+
+    setLoading(false);
+
+    /* emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
@@ -60,8 +67,8 @@ const Contact = () => {
           console.error(error);
 
           alert("Ahh, something went wrong. Please try again.");
-        }
-      );
+        } 
+      ); */
   };
 
   return (
@@ -113,13 +120,20 @@ const Contact = () => {
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
-
+          <div className="grid grid-flow-col">
           <button
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
             {loading ? "Sending..." : "Send"}
           </button>
+
+          <div className="px-8">
+          <label className={resShow ? 'inline flex-col' : 'inline flex-col hidden' } >
+            <text className='font-sans text-xs align-center text-yellow-500 font-small mb-2'>Sorry, but contact form is currently unavailable. Please, reach out directly to xeno97.sec@gmail.com.</text>
+          </label>
+          </div>
+          </div>
         </form>
       </motion.div>
 

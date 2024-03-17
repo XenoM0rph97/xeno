@@ -50,6 +50,15 @@ jobs:
           name: production-files
           path: ./dist
 
+      - name: Loading env variables from GitHub Secrets 0
+        run: export VITE_APP_EMAILJS_SERVICE_ID=${{ secrets.VITE_APP_EMAILJS_SERVICE_ID }}
+
+      - name: Loading env variables from GitHub Secrets 1
+      run: export VITE_APP_EMAILJS_TEMPLATE_ID=${{ secrets.VITE_APP_EMAILJS_TEMPLATE_ID }}
+
+      - name: Loading env variables from GitHub Secrets 2
+      run: export VITE_APP_EMAILJS_PUBLIC_KEY=${{ secrets.VITE_APP_EMAILJS_PUBLIC_KEY }}
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:

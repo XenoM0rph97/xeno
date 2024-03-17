@@ -76,7 +76,7 @@ const About = () => {
         Digital Forensic Analysis, Incident Response, Network Monitoring & Log Analysis,
         Vulnerability Assessment and Cybersecurity Consultancy. <br />
         A constant hunger for knowledge combined with super quick learning abilities are an easy win 
-        when it comes to solve security issues!
+        when it comes to identify and resolve security issues!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -69,7 +69,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]'
       >
         I'm a passionate CyberSecurity Engineer with many years of experience and certifications in 
         several fields such as Penetration Testing, R&D, Malware Analysis & Development,

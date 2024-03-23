@@ -130,7 +130,7 @@ const Contact = () => {
 
           <div className="px-8">
           <label className={resShow ? 'inline flex-col' : 'inline flex-col hidden' } >
-            <text className='font-sans text-xs align-center text-yellow-500 font-small mb-2'>Sorry, but contact form is currently unavailable. Please, reach out directly to xeno97.sec@gmail.com.</text>
+            <p className='font-sans text-xs align-center text-yellow-500 font-small mb-2'>Sorry, but contact form is currently unavailable. Please, reach out directly to xeno97.sec@gmail.com.</p>
           </label>
           </div>
           </div>

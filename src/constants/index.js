@@ -69,14 +69,14 @@ import {
 
   const certifications = [
     {
+      name: "OffSec Certified Professional+",
+      identifier: "oscp",
+      path: "./certs/badges/OSCP+_Badge.png"
+    },
+    {
       name: "CSI Linux - Certified Dark Web Investigator",
       identifier: "csi",
       path: "./certs/badges/csi_linux_cdwi_badge.png"
-    },
-    {
-      name: "Threat Feed Service - L1 Analyst",
-      identifier: "tfsAnalyst",
-      path: "./certs/badges/TFS_badge.png"
     },
     {
       name: "Certified Ethical Hacker Master (Hall of Fame 2021)",

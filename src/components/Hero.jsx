@@ -26,7 +26,7 @@ const Hero = () => {
 
       <div className="absolute xs:bottom-20 bottom-32 w-full flex justify-center items-center">
         <img 
-          src="/logos/Xeno97_logo_2.png" 
+          src="./logos/Xeno97_logo_2.png" 
           className="w-[100vw] sm:w-[70vw] md:w-[90vw] lg:w-[85vw] max-w-[900px] h-auto max-h-[57svh] object-contain" 
           alt="Logo" 
         />

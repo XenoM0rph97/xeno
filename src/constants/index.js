@@ -164,7 +164,7 @@ import {
       company_name: "NF_Security",
       icon: nf_logo,
       iconBg: "#E6DEDD",
-      date: "Jan 2022 - Present",
+      date: "Jan 2022 - Dec 2023",
       points: [
         "Red Team Lead",
         "Red Team Engineering",
@@ -177,7 +177,7 @@ import {
       company_name: "NF_Security",
       icon: nf_logo,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Jan 2022",
+      date: "Jan 2021 - Dec 2021",
       points: [
         "Threat Intelligence (zero-day malware hunt and analysis)",
         "Malware Analysis",
@@ -220,7 +220,7 @@ import {
       company_name: "Lan&Wan Solutions ",
       icon: lanewan,
       iconBg: "#E6DEDD",
-      date: "Jan 2022 - May 2022",
+      date: "Jan 2021 - Jan 2022",
       points: [
         "Penetration Testing (Web Application - Infrastructure)",
         "Digital Forensic Analysis (Conduction of post-breach investigations to determine the root cause of compromisation by preserving valid proofs to present in case of legal action)",
@@ -237,7 +237,7 @@ import {
       company_name: "Netx64 Srl",
       icon: netx64,
       iconBg: "#383E56",
-      date: "Jan 2022 - May 2022",
+      date: "Apr 2020 - Jan 2021",
       points: [
         "Vulnerability Assessment (OpenVAS, Swascan, Nessus)",
         "R&D (scripting, mainly through Python, for internal cybersec tools or malware development)",
@@ -252,7 +252,7 @@ import {
       company_name: "SkyTekne Srls ",
       icon: skytekne,
       iconBg: "#E6DEDD",
-      date: "Jan 2022 - May 2022",
+      date: "Oct 2018 - Apr 2020",
       points: [
         "Vulnerability Assessment",
         "Design, Implementation and Management of Network Security Solutions (Firewalls)",

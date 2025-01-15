@@ -26,15 +26,14 @@ const Hero = () => {
 
       <div className="absolute xs:bottom-20 bottom-32 w-full flex justify-center items-center">
         <img 
-          src="./logos/Xeno97_logo_2.png" 
+          src="./logos/xenom0rph97_logo.png" 
           className="w-[100vw] sm:w-[70vw] md:w-[90vw] lg:w-[85vw] max-w-[900px] h-auto max-h-[57svh] object-contain" 
-          alt="Logo" 
         />
       </div>
       
       {/* <ComputersCanvas /> */}
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      {/* <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
@@ -50,7 +49,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };

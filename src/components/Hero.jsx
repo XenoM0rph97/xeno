@@ -24,10 +24,10 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute xxs:bottom-40 xs:bottom-20 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute xxs:bottom-30 xs:bottom-20 bottom-32 w-full flex justify-center items-center">
         <img 
           src="./logos/xenom0rph97_logo.png" 
-          className="w-[100vw] xxxs:w-[70vw] xxs:w-[90vw] sm:w-[70vw] md:w-[90vw] lg:w-[85vw] max-w-[900px] h-auto max-h-[57svh] object-contain" 
+          className="w-[100vw] xxxs:w-[40vw] xxs:w-[80vw] sm:w-[70vw] md:w-[90vw] lg:w-[85vw] max-w-[900px] h-auto max-h-[57svh] object-contain" 
         />
       </div>
       

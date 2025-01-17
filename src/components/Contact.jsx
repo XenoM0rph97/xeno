@@ -131,7 +131,7 @@ const Contact = () => {
       rel="noopener noreferrer"
     >
       <img
-        src="./src/assets/github.png"
+        src="./logos/github.png"
         alt="GitHub Logo"
         className='w-10 h-10'
       />
@@ -142,7 +142,7 @@ const Contact = () => {
       rel="noopener noreferrer"
     >
       <img
-        src="./src/assets/linkedin_logo.png"
+        src="./logos/linkedin_logo.png"
         alt="LinkedIn Logo"
         className='w-8 h-8'
       />

@@ -114,10 +114,10 @@ const Contact = () => {
     <div>
       <p className='font-sans text-xs align-center font-small mb-2'>
         You can also reach out directly at: <a
-        href="mailto:xeno97.sec@gmail.com"
+        href="mailto:xeno97.sec@proton.me"
         className='underline font-sans text-xs align-center font-small mb-2'
       >
-        xeno97.sec@gmail.com
+        xeno97.sec@proton.me
       </a>
       </p>
     </div>

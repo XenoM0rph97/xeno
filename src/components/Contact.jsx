@@ -31,7 +31,7 @@ const Contact = () => {
     e.preventDefault();
 
     // Construct the `mailto:` URL
-    const mailtoLink = `mailto:xeno97.sec@gmail.com?subject=Message from ${encodeURIComponent(
+    const mailtoLink = `mailto:xeno97.sec@proton.me?subject=Message from ${encodeURIComponent(
       form.name
     )}&body=${encodeURIComponent(
       `Name: ${form.name}\nEmail: ${form.email}\nMessage: ${form.message}`

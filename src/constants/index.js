@@ -69,14 +69,14 @@ import {
 
   const certifications = [
     {
+      name: "GIAC Exploit Researcher and Advanced Penetration Tester",
+      identifier: "gxpn",
+      path: "./certs/badges/GXPN_Badge.png"
+    },
+    {
       name: "OffSec Certified Professional+",
       identifier: "oscp",
       path: "./certs/badges/OSCP+_Badge.png"
-    },
-    {
-      name: "CSI Linux - Certified Dark Web Investigator",
-      identifier: "csi",
-      path: "./certs/badges/csi_linux_cdwi_badge.png"
     },
     {
       name: "Certified Ethical Hacker Master (Hall of Fame 2021)",
@@ -84,9 +84,9 @@ import {
       path: "./certs/badges/CEH_HoF_2021.png"
     },
     {
-      name: "Sophos Certified Engineer - XG Firewall",
-      identifier: "sophos",
-      path: "./certs/badges/Sophos_Engineer_badge.png"
+      name: "CSI Linux - Certified Dark Web Investigator",
+      identifier: "csi",
+      path: "./certs/badges/csi_linux_cdwi_badge.png"
     },
   ];
   

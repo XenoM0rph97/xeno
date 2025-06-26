@@ -38,6 +38,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import nick from "./Nick.jpg";
+import valerio from "./Valerio.jpeg";
 
 export {
   logo,
@@ -76,4 +77,5 @@ export {
   nf_logo,
   aws,
   nick,
+  valerio,
 };

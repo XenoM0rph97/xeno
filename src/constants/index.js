@@ -30,7 +30,8 @@ import {
     kirey,
     nf_logo,
     aws,
-    nick
+    nick,
+    valerio,
   } from "../assets";
   
   export const navLinks = [
@@ -274,6 +275,14 @@ import {
       designation: "SOC Manager",
       company: "Lan&Wan Solutions",
       image: nick,
+    },
+    {
+      testimonial:
+        "I met Andrea during our programming studies, and since then we've maintained an ongoing exchange on topics related to IT, cloud, and cybersecurity. Andrea is a very curious person, with a strong drive to learn and continuously improve. He has an open mindset, always eager to dive deeper into new subjects and challenge himself to grow professionally. I highly recommend him to anyone looking for a competent and constantly evolving professional in the IT field.",
+      name: "Valerio Ly",
+      designation: "Senior Cloud Solution Architect & Devops Engineer",
+      company: "Engineering D.HUB",
+      image: valerio,
     },
   ];
   

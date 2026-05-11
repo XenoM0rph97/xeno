@@ -39,6 +39,8 @@ import tripguide from "./tripguide.png";
 
 import nick from "./Nick.jpg";
 import valerio from "./Valerio.jpeg";
+import joanna from "./Joanna.jpeg";
+import eduardo from "./Eduardo.png";
 
 export {
   logo,
@@ -78,4 +80,6 @@ export {
   aws,
   nick,
   valerio,
+  joanna,
+  eduardo,
 };

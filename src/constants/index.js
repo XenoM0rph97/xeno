@@ -32,6 +32,8 @@ import {
     aws,
     nick,
     valerio,
+    joanna,
+    eduardo,
   } from "../assets";
   
   export const navLinks = [
@@ -152,7 +154,7 @@ import {
       company_name: "Amazon Web Services (AWS)",
       icon: aws,
       iconBg: "#E6DEDD",
-      date: "Nov 2022 - Present",
+      date: "Nov 2022 - Nov 2025",
       points: [
         "Penetration Testing",
         "R&D (Automation & Tooling development)",
@@ -270,19 +272,27 @@ import {
   const testimonials = [
     {
       testimonial:
+        "I had the pleasure of working with Andrea on my pentesting team at AWS. He consistently demonstrated exceptional communication skills and customer obsession, whether presenting to stakeholders, collaborating with cross-functional teams or explaining complex topics clearly and concisely. Andrea has a proactive mindset. He had a keen eye for identifying inefficiencies and came to the table with thoughtful solutions that drove process improvements benefiting the entire team. I would highly recommend Andrea to any organization looking for someone who takes initiative and elevates those around them.",
+      name: "Joanna Maria Filipiak",
+      designation: "Proactive Security Manager",
+      company: "Amazon Web Services (AWS)",
+      image: joanna,
+    },
+    {
+      testimonial:
+        "Andrea is one of the best team players you can have on your team. He is a savvy offensive security engineer who always finds his way through ambiguous and complex engagements, while kindly coaching his teammates and sharing every bit of his knowledge. Andrea's relentless curiosity has led him to discover vulnerabilities that have improved the security posture of state-of-the-art cloud services used by millions of users every day. In close collaboration with stakeholders and customers, Andrea ensures that the vulnerabilities he finds are fixed and remain fixed over time. Andrea is a strong hire who would help any team deliver outstanding work.",
+      name: "Eduardo Parra San José",
+      designation: "Security Engineer",
+      company: "Amazon Web Services (AWS)",
+      image: eduardo,
+    },
+    {
+      testimonial:
         "Andrea is an highly skilled professional that won't stop improving himself. I personally worked side by side with Andrea in the SOC department and had the occasion to get surprised with his innovations and automation skills in the cybersecurity field. But after all this guy is born for Red Team operations and I can't wait to see what he can do! If you are an offensive oriented security company you definitely want him in your team!",
       name: "Nicolas Fasolo",
       designation: "SOC Manager",
       company: "Lan&Wan Solutions",
       image: nick,
-    },
-    {
-      testimonial:
-        "I met Andrea during our programming studies, and since then we've maintained an ongoing exchange on topics related to IT, cloud, and cybersecurity. Andrea is a very curious person, with a strong drive to learn and continuously improve. He has an open mindset, always eager to dive deeper into new subjects and challenge himself to grow professionally. I highly recommend him to anyone looking for a competent and constantly evolving professional in the IT field.",
-      name: "Valerio Ly",
-      designation: "Senior Cloud Solution Architect & Devops Engineer",
-      company: "Engineering D.HUB",
-      image: valerio,
     },
   ];
   

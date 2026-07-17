@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  const earth = useGLTF("./cyber_core/scene.gltf");
+  const earth = useGLTF("./cyber_core/scene.glb");
 
   return (
     <mesh>

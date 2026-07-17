@@ -32,6 +32,7 @@ import almaviva from "./company/AlmavivA.png";
 import kirey from "./company/Kirey.png";
 import nf_logo from "./company/NF_logo.png";
 import aws from "./company/Aws.png";
+import pwc from "./company/PwC.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -78,6 +79,7 @@ export {
   kirey,
   nf_logo,
   aws,
+  pwc,
   nick,
   valerio,
   joanna,

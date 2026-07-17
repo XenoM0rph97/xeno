@@ -30,6 +30,7 @@ import {
     kirey,
     nf_logo,
     aws,
+    pwc,
     nick,
     valerio,
     joanna,
@@ -149,6 +150,19 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Red Team Manager - OffSec Engineer",
+      company_name: "PricewaterhouseCoopers (PwC)",
+      icon: pwc,
+      iconBg: "#E6DEDD",
+      date: "Jun 2026 - Current",
+      points: [
+        "Red Teaming",
+        "Adversary Emulation",
+        "Penetration Testing",
+        "R&D (Red Team Development)",
+      ],
+    },
     {
       title: "Penetration Testing Engineer",
       company_name: "Amazon Web Services (AWS)",

@@ -2,9 +2,9 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Certs } from "./components";
 
-// Checking if the current host contains "pages.dev" (Cloudflare)
-const isCloudflare = window.location.hostname.includes('pages.dev');
-const routerBasename = isCloudflare ? '/' : '/xeno';
+// Checking if the current host is GitHub Pages (github.io)
+const isGitHubPages = window.location.hostname.includes('github.io');
+const routerBasename = isGitHubPages ? '/xeno' : '/';
 
 // Main layout block for the single-page portfolio structure
 const MainLayout = () => (
